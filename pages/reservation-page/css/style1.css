@@ -1,0 +1,741 @@
+/* Rectangle 2 */
+
+
+position: absolute;
+width: 1440px;
+height: 443px;
+left: 0px;
+top: 0px;
+
+background: url(.jpg);
+
+
+/* HZ */
+
+
+position: absolute;
+width: 50px;
+height: 49px;
+left: 115px;
+top: 64px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 49px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+
+
+/* Home */
+
+
+position: absolute;
+width: 53px;
+height: 25px;
+left: 609px;
+top: 76px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+
+
+/* About */
+
+
+position: absolute;
+width: 53px;
+height: 25px;
+left: 712px;
+top: 76px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+
+
+/* Rooms */
+
+
+position: absolute;
+width: 60px;
+height: 25px;
+left: 815px;
+top: 76px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+
+
+/* Facilities */
+
+
+position: absolute;
+width: 76px;
+height: 25px;
+left: 925px;
+top: 76px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+
+
+/* Contact */
+
+
+position: absolute;
+width: 68px;
+height: 25px;
+left: 1051px;
+top: 76px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+
+
+/* Frame 1 */
+
+
+/* Auto Layout */
+
+display: flex;
+flex-direction: row;
+padding: 10px 20px;
+
+position: absolute;
+width: 129px;
+height: 45px;
+left: 1185px;
+top: 66px;
+
+background: #DEBC64;
+
+
+/* BOOKING */
+
+
+position: absolute;
+width: 307px;
+height: 87px;
+left: 558px;
+top: 179px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 87px;
+
+color: #FFFFFF;
+
+
+
+/* Group 28 */
+
+
+position: absolute;
+width: 333px;
+height: 592px;
+left: 118px;
+top: 811px;
+
+box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.1);
+
+
+/* Group 17 */
+
+
+position: absolute;
+width: 387px;
+height: 574px;
+left: 496px;
+top: 932px;
+
+
+
+/* Group 30 */
+
+
+position: absolute;
+width: 387px;
+height: 574px;
+left: 496px;
+top: 1570px;
+
+
+
+/* Group 29 */
+
+
+position: absolute;
+width: 387px;
+height: 574px;
+left: 933px;
+top: 932px;
+
+
+
+/* Group 31 */
+
+
+position: absolute;
+width: 387px;
+height: 574px;
+left: 933px;
+top: 1570px;
+
+
+
+/* Available Rooms */
+
+
+position: absolute;
+width: 239px;
+height: 41px;
+left: 496px;
+top: 811px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 41px;
+/* identical to box height */
+
+
+color: #505050;
+
+
+
+
+
+/* Outline 1 */
+
+
+position: absolute;
+left: 18.01%;
+right: 80.1%;
+top: 22.29%;
+bottom: 77.24%;
+
+transform: rotate(1.06deg);
+
+
+/* Group 38 */
+
+
+position: absolute;
+width: 152px;
+height: 32px;
+left: 502px;
+top: 2194px;
+
+
+
+/* Line 7 */
+
+
+position: absolute;
+width: 831px;
+height: 0px;
+left: 310px;
+top: 569px;
+
+border: 2px solid #E8E7E7;
+
+
+/* Ellipse 11 */
+
+
+position: absolute;
+width: 117px;
+height: 117px;
+left: 211px;
+top: 511px;
+
+background: #E5E5E5;
+
+
+/* Ellipse 12 */
+
+
+position: absolute;
+width: 117px;
+height: 117px;
+left: 509px;
+top: 511px;
+
+background: #E5E5E5;
+
+
+/* Ellipse 13 */
+
+
+position: absolute;
+width: 117px;
+height: 117px;
+left: 807px;
+top: 511px;
+
+background: #E5E5E5;
+
+
+/* Ellipse 14 */
+
+
+position: absolute;
+width: 117px;
+height: 117px;
+left: 1105px;
+top: 511px;
+
+background: #E5E5E5;
+
+
+/* Select Room */
+
+
+position: absolute;
+width: 139px;
+height: 33px;
+left: 200px;
+top: 644px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+
+color: #505050;
+
+
+
+/* Personal Info */
+
+
+position: absolute;
+width: 149px;
+height: 33px;
+left: 493px;
+top: 644px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+
+color: #505050;
+
+
+
+/* Payment Info */
+
+
+position: absolute;
+width: 150px;
+height: 33px;
+left: 791px;
+top: 644px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+
+color: #505050;
+
+
+
+/* Review */
+
+
+position: absolute;
+width: 79px;
+height: 33px;
+left: 1124px;
+top: 644px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+
+color: #505050;
+
+
+
+/* Opened Folder */
+
+
+position: absolute;
+width: 71px;
+height: 72px;
+left: 831px;
+top: 533px;
+
+background: url(.png);
+
+
+/* Bed */
+
+
+position: absolute;
+width: 71px;
+height: 72px;
+left: 234px;
+top: 533px;
+
+background: url(.png);
+
+
+/* People */
+
+
+position: absolute;
+width: 71px;
+height: 71px;
+left: 532px;
+top: 534px;
+
+background: url(.png);
+
+
+/* Binoculars */
+
+
+position: absolute;
+width: 71px;
+height: 71px;
+left: 1132px;
+top: 534px;
+
+background: url(.png);
+
+
+/* Ellipse 11 */
+
+
+position: absolute;
+width: 117px;
+height: 117px;
+
+background: #E5E5E5;
+
+
+/* Ellipse 12 */
+
+
+position: absolute;
+width: 117px;
+height: 117px;
+
+background: #E5E5E5;
+
+
+/* Ellipse 13 */
+
+
+position: absolute;
+width: 117px;
+height: 117px;
+
+background: #E5E5E5;
+
+
+/* Ellipse 14 */
+
+
+position: absolute;
+width: 117px;
+height: 117px;
+
+background: #E5E5E5;
+
+
+/* Select Room */
+
+
+position: absolute;
+width: 139px;
+height: 33px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+
+color: #505050;
+
+
+
+/* Personal Info */
+
+
+position: absolute;
+width: 149px;
+height: 33px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+
+color: #505050;
+
+
+
+/* Payment Info */
+
+
+position: absolute;
+width: 150px;
+height: 33px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+
+color: #505050;
+
+
+
+/* Review */
+
+
+position: absolute;
+width: 79px;
+height: 33px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+
+color: #505050;
+
+
+
+/* Group */
+
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 12.5%;
+bottom: 12.5%;
+
+
+
+/* Group */
+
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 12.5%;
+bottom: 12.5%;
+
+
+
+/* Group */
+
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 12.5%;
+bottom: 12.5%;
+
+
+
+/* Group */
+
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 12.5%;
+bottom: 12.5%;
+
+
+
+
+/* footer */
+
+
+position: absolute;
+width: 1447px;
+height: 701px;
+left: 0px;
+top: 2458px;
+
+
+
+/* STAY IN TOUCH Sign up here to receive interesting updates */
+
+
+position: absolute;
+width: 400px;
+height: 54px;
+left: 107px;
+top: 2754px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 27px;
+
+color: #FFFFFF;
+
+/* Rectangle 22 */
+
+
+position: absolute;
+width: 314px;
+height: 57px;
+left: 107px;
+top: 2863px;
+
+background: #FFFFFF;
+border: 0.75px solid #A4A4A4;
+box-sizing: border-box;
+
+
+/* Frame 4 */
+
+
+/* Auto Layout  search */
+
+display: flex;
+flex-direction: row;
+padding: 20px 40px;
+
+position: absolute;
+width: 123px;
+height: 57px;
+left: 435px;
+top: 2863px;
+
+background: #DEBC64;
+
+/* Home About Us Facilities Contact */
+
+
+position: absolute;
+width: 90px;
+height: 99px;
+left: 708px;
+top: 2789px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+
+color: #FFFFFF;
+
+/* COMPANY */
+
+
+position: absolute;
+width: 93px;
+height: 25px;
+left: 708px;
+top: 2754px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+/*next li company*/
+position: absolute;
+width: 93px;
+height: 25px;
+left: 1001px;
+top: 2754px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: #FFFFFF;
