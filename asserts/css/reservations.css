@@ -37,7 +37,7 @@ body{
     width: 100%;
     position: relative;
     height: 400px;
-    background-image: url('../reservation-page/img/Rectangle2.png');
+    background-image: url('../../asserts/img/Rectangle2.png');
     z-index: 500;
 }
 
@@ -648,7 +648,7 @@ form button {
 }
 
 .pictures button{
-	width: 188px;
+	width: 164px;
 	height: 57px;
 	display: flex;
 	flex-direction: row;
@@ -695,7 +695,7 @@ form button {
 }
 
 
-@media screen and (min-width: 100px) and (max-width: 800px) {
+@media screen and (min-width: 100px) and (max-width: 880px) {
 
 	.body{
         min-height: 100%;
@@ -733,7 +733,7 @@ form button {
         padding-left: 20px;
     }
     .icons .vector{
-        padding-left: 22px;
+        padding-left: 11px;
     }
     .icons li {
 	list-style-type: none;
@@ -753,7 +753,7 @@ form button {
 }
 .icons li span {
 	display: flex;
-	margin-left: -6%;
+	margin-left: 20%;
 }
 .icons li i {
 	 background-color: transparent; 
@@ -827,9 +827,12 @@ a {
 
 .card {
 	/* height: ; */
-	margin-top: 25px;
+	margin-top: 25%;
 	border: 0.75px solid #E5E5E5;
 	width: 100%;
+}
+.roomPics #card3{
+    margin-top:50%;
 }
 .search-content form {
 	width: 100%;
