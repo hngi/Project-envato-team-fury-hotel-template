@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+      background: #E5E5E5;
+}
+ .body1{
+        min-height: 100%;
+        width: 100%;
+    }
+
+    
+    /*Reservation Detail */
+    .row {
+        margin-bottom: 0%;
+    }
+    .info2 .btn {
+        border-radius:0px;
+    }
+    .prev-btn {
+         margin-left: 20em;
+    }
+   .info2 input[type=text] {
+        border-radius:0px;
+        height:3em;
+        margin: 5px 10px 20px 5px;
+    }
+    .info2 input[type=number] {
+        border-radius:0px;
+        height:3em;
+        margin: 5px 10px 5px 10px;
+    }
+    .info2 input[type=email] {
+        border-radius:0px;
+        height:3em;
+        margin: 5px 10px 10px 10px;
+    }
+    .info2 input[type=password] {
+        border-radius:0px;
+        height:3em;
+        margin: 10px 10px 10px 10px;
+    }
+    .img-thumbnail {
+        border: none;
+    }
+    .card {
+        box-shadow: 1px 1px 1px;
+    }
+    .card-header {
+        border: none;
+        background: #fff;
+
+    }
+    .card-body {
+        padding-left: 0px;
+    }
+    .card-title {
+        width: 17.4em;
+        border-bottom: 1px solid #000;
+        padding:15px 15px 15px 20px;
+    }
+    .small {
+        padding-left:20px;
+    }
+    .info2 {
+        background-color: #f4f4f4;
+        height: 42em;
+    }
+
+    footer {
+        height:100%;
+    }
+    #hzFooter input[type=text] {
+        width: 70%;
+        margin: 10px 5px 10px 0px;
+    }
+    #contactInfo i {
+        padding-right: 5px;
+    }
+    
+    /* Footerr */
+    #zuriFooter {
+        margin-top:10%;
+    }
+    #zuriFooter input[type=email]{
+
+    }
+
+    
+    @media (max-width: 756px) {
+        .prev-btn {
+            margin:auto;
+        }
+         .info2 {
+             margin: 10px 10px;
+             width: 90%
+             height: 50%;
+
+         }
+        footer {
+            height:100%;
+        }
+        #hzFooter input[type=text] {
+            width: 70%;
+            margin: 10px 5px 10px 0px;
+        }
+        #contactInfo i {
+            padding-right: 5px;
+    }
+    }
+
+    
