@@ -7,7 +7,6 @@ body {
 }
 nav {
     background-color: #111a3a;
-    height:6em;
 }
 .nav-link:hover {
     border-bottom: 3px solid #e4c141;
@@ -44,7 +43,7 @@ ul {
     background: url('../images/Component 3.png') no-repeat center center/cover;
     padding: 20px;
     width: 100%;
-    min-height: 35em;
+    min-height: 100%;
     color: #fff;
 }
 .landing-content h3 {
@@ -157,7 +156,7 @@ ul {
 #spa {
     margin-right: 0px;
     margin-left: 0px;
-    background: url('../images/Component 4.png') no-repeat center center/contain;  
+    background: url('../images/Component 4.png') no-repeat center center/cover;  
     height: 30em;
     width:100%;
     position: relative;
@@ -204,7 +203,7 @@ footer li {
     border-radius: 0px;
 }
 #hzFooter .btn {
-    border-radius: 5px;
+        border-radius: 5px;
     }
 #hzFooter .btn:hover {
     background: #e3ce83;
@@ -237,7 +236,8 @@ footer li {
             display: none;
         }
     .landing-content .caption {
-            margin-top: 8em;
+            margin-top: 5em;
+            margin: 3em;
         }
     .landing-form1 {
             display: none;
