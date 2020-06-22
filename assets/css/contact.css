@@ -60,7 +60,7 @@ nav{
 
 /* Styling main body */
 .contact_telephone{
-    background: linear-gradient(rgba(24, 43, 71, 0.8),rgba(24, 43, 71, 0.8)),url('../../assets/images/Telephone.png');
+    background: linear-gradient(rgba(24, 43, 71, 0.8),rgba(24, 43, 71, 0.8)),url('../images/Telephone.png');
     background-repeat: none;
     background-size: cover;
     height: 150px;
