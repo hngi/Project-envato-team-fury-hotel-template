@@ -4,6 +4,12 @@
   --nav-bg-color: #182b47;
   --para-color: #0000;
   --five-stars: #ff8080;
+  --primary-color: #182B47;
+    --button: #DEBC64;
+    --light:  #fff;
+    
+    --footer: #0E1C32;
+    --shadow: 5px 7px 10px rgba(104, 104, 104, 0.8);
 }
 * {
   padding: 0;
@@ -101,17 +107,21 @@
 body {
   overflow-x: hidden;
 }
+section{
+  overflow: hidden;
+}
 /* header and navigation */
 header {
   overflow: hidden;
   height: 443px;
   background: linear-gradient(rgba(19, 35, 54, 0.95), rgba(19, 36, 54, 0.65)),
-    url(/images/packing.jpeg) center no-repeat;
+    url(../images/packing.jpeg) center no-repeat;
   background-size: cover;
 }
 header .nav-wrap {
   background: var(--nav-bg-color);
-  height: 135px;
+  /* height: 135px; */
+  padding: 30px 0 ;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -240,3 +250,203 @@ header .hero-text p {
     position: relative;
   }
 }
+
+
+/* footer css from abd */
+/* COMPANY AREA STYLING SECTION STARTS*/
+.company {
+    background-color: var(--nav-bg-color);
+    color: var(--light);
+    padding-bottom: 1rem;
+}
+
+.company h1 {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.company h3 {
+    line-height: 1.6;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-bottom: .5rem;
+}
+
+.company h5 {
+    line-height: 1.6;
+    font-weight: 400;
+    font-size: 1.3rem;
+    padding: 0;
+}
+
+.company .inline-form input {
+    padding: .5rem .6rem;
+}
+
+.company .btn-company {
+    padding: .7rem 1.4rem;
+    background-color: var(--btn-color);
+    border: none;
+    display: inline-block;
+    color: var(--dark);
+    font-weight: 700;
+}
+
+.company .inline-form .btn-company:hover {
+    background-color: var(--light);
+    border: .1px var(--primary-color) solid;
+    border-radius: .2rem;
+}
+
+.company #reach-us p {
+    line-height: 1.7;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: .3rem;
+}
+
+.company a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.company #services p:hover {
+    text-decoration: underline;
+    color: var(--light);
+}
+
+.company #reach-us .social-media {
+    padding: 1rem 0;
+}
+
+.company #reach-us .social-media a {
+    padding-right: .5rem;
+}
+
+.company #reach-us ion-icon{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.company #company-elements {
+    text-align: left;
+} 
+/* COMPANY AREA STYLING SECTION ENDS*/
+
+
+/* FOOTER SECTION STYLING */
+.main-footer {
+    background-color: var(--nav-bg-color);
+    padding: 1.5rem 0;
+    color: var(--light);
+    line-height: 1.5;
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+
+/* Media Querry */
+@media(max-width:1000px) {
+    .rooms .room-row {
+        display: flex;
+        flex-direction: column;
+        color: var(--light);
+        border: 1px var(--primary-color) solid;
+    }
+
+    .rooms .room-row .room-text { 
+        display: none;
+        padding: 0;
+    }
+
+    .rooms .room-row div:nth-child(3) {
+        padding: 1rem 0;
+    }
+    .company .inline-form input {
+        padding: .5rem .6rem;
+        margin-bottom: .5rem;
+    }
+    
+    .company .inline-form .btn-company {
+        padding: .7rem 1.4rem;
+        background-color: var(--btn-color);
+        border: none;
+        color: var(--dark);
+        font-weight: 400;
+    }
+}
+
+@media(max-width: 991px) {
+    .main-header li #underline {
+        border: none;
+    }
+    
+    .main-header #navbar-btn {
+        background-color: var(--button);
+        padding: .4rem .8rem;
+        margin-top: 2rem;
+    }
+}
+
+@media(max-width:768px){
+    .round-control .round {
+    display: none;
+    }
+    .company #company-element div {
+        margin-bottom: 1rem;
+    }
+    .main-footer {
+        font-size: .8rem;
+    }
+    .company .inline-form input {
+        padding: .5rem;
+        margin-bottom: .5rem;
+    }
+    
+    .company .inline-form .btn-company {
+        padding: .6rem 1rem;
+        background-color: var(--btn-color);
+        border: none;
+        color: var(--dark);
+        font-weight: 3o0;
+    }
+    
+}
+    
+/* @media(min-width:800px){
+    .book_online_btn{
+        margin-top: 0;
+    }
+    .active{
+        background-color: transparent;
+        color: #FFFFFF;
+        border-bottom: 5px solid  #DEBC64;
+    }
+    .contact_telephone{
+        font-size: 64px;
+    }
+    .new_letter_btn{
+        padding: 7px 50px;
+    }
+    .footer_company{
+        margin-top: auto;
+    }
+} */
+
+/* Responsive */
+
+@media only screen and (max-width: 414px){ 
+  header .navbar-nav{
+    z-index: 98989;
+  } 
+  header .navbar-nav .nav-item {
+   padding:  0 10px; 
+   margin-left: 0;
+  }
+  header .nav-wrap {
+    padding: 10px;
+  }
+}
+
+
