@@ -202,7 +202,7 @@ body {
         width: 100%;
         position: relative;
         height: 400px;
-        background-image: url('images/mobileRoom.png');
+        background-image: url('../images/mobileRoom.png');
         z-index: 500;
     }
 
@@ -235,6 +235,7 @@ body {
         transform: translateX(0)
     }
 
+
    #side ul {
     list-style: none;
     display: flex;
@@ -256,6 +257,7 @@ body {
     #side li {
         margin: 1rem;
         font-size: 1rem;
+
     }
 
     #side a {
@@ -602,9 +604,11 @@ section .pager {
 /* BODY */
 
 
+
 .vector1, .vector2 {
     display: none;
 }
+
 
 
 .icons li i {
@@ -762,7 +766,7 @@ form button {
         flex-direction: column;
     }
 
-    .vector {
+
         display: none;
     }
     .vector1 {
@@ -802,10 +806,12 @@ form button {
     margin-right: 30%;
 }
 
+
     .icons i {
         width: 25px;
         height: 25px;
     }
+
 
     .icons li span {
     display: flex;
@@ -863,6 +869,7 @@ form button {
     h2 {
         margin-left: 20px;
     }
+
 
     #card2 {
         display: none;
