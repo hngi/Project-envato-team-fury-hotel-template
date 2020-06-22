@@ -257,8 +257,7 @@ footer li {
             display: none;
         }
     .nav-button2 {
-            display: block;
-            margin: 5px;
+            display: inline;
         }
 
     .landing-content .caption {
