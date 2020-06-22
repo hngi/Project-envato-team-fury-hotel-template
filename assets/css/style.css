@@ -37,13 +37,14 @@ ul {
 
 /* Header section */
 .caption .btn {
-    padding:5px;
+    pmargin: 10px;
 }
 .landing-content {
     background: url('../images/Component 3.png') no-repeat center center/cover;
-    padding: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     width: 100%;
-    height: auto;
+    min-height: auto;
     color: #fff;
 }
 .landing-content h3 {
@@ -113,7 +114,8 @@ ul {
       margin: 0px;
 }
  .padding img {
-    height: 25em;
+    height: 23em;
+    width: 100%;
     margin: 2px 0px 2px 0px;
  }
  
@@ -239,6 +241,14 @@ footer li {
     .landing-content .caption {
             margin-top: 5em;
             margin: 3em;
+        }
+    .landing-content h3 {
+        font-size: 25pt;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+    .landing-content p {
+        font-size: 12pt;
         }
     .landing-form1 {
             display: none;
