@@ -258,6 +258,7 @@ footer li {
         }
     .nav-button2 {
             display: block;
+            margin: 5px;
         }
 
     .landing-content .caption {
