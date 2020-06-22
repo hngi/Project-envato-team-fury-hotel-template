@@ -1,0 +1,385 @@
+
+:root {
+    --primary-color: #182B47;
+    --button: #DEBC64;
+    --light:  #fff;
+    --dark: #000;
+    --footer: #0E1C32;
+    --shadow: 5px 7px 10px rgba(104, 104, 104, 0.8);
+}
+
+.body{
+    background-color: #F5F5F5;
+    overflow: hidden;
+}
+
+div {
+    margin: 0;
+}
+
+img {
+    height: 100%;
+}
+
+/* Header section styling Starts*/
+.showcase {
+    height: 30rem;
+    background-image:url('https://res.cloudinary.com/opejinabdul/image/upload/v1592570701/vector_qarjuq.png');
+    margin-bottom: 3.5rem;
+}
+
+.showcase .main-header {
+    background-color: var(--primary-color);
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+#navbar .current {
+    border-bottom: .1rem var(--button) solid;
+    padding-bottom: .75rem;
+}
+
+.main-header .navbar {
+    color: var(--light); 
+} 
+
+.main-header li {
+    display: inline;
+    list-style: none;
+    padding-right: 2rem;
+    font-size: 1rem;
+}
+
+.main-header a {
+    text-decoration: none;
+}
+
+.main-header li #underline,
+.main-header li #stay:hover {
+    border-bottom: .2rem var(--button) solid;
+}
+
+.main-header #navbar-btn {
+    background-color: var(--button);
+    padding: .8rem 1.5rem;
+    color: var(--dark);
+    font-size: .8rem;
+    font-weight: 700;
+    border: none;
+}
+
+.main-header #navbar-btn:hover {
+    background-color: var(--light);
+}
+
+.showcase #showcase-text {
+    height: 80%;
+    color: var(--light);
+}
+/* Header section styling ends*/
+
+/*Avalible room section styling starts*/
+.rooms .room-row {
+    display: flex;
+    border: 1px var(--primary-color) solid;
+    margin-bottom: 3rem;
+    box-shadow: var(--shadow);
+}
+
+.rooms .room-row div:nth-child(1) {
+    flex: 1.3;
+}
+
+.rooms .room-row div:nth-child(1) img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+}
+
+.rooms .room-row div:nth-child(2) {
+    background-color: var(--primary-color);
+    color: var(--light);
+    flex: 2;
+    padding-left: .8rem;
+    padding-right: 4rem;
+}
+
+.rooms .room-row div:nth-child(2) p {
+    font-size: .9rem;
+    font-weight: 100;
+    line-height: 1.6;
+}
+
+.rooms .room-row div:nth-child(3) {
+    flex: 1;
+    align-self: center;
+    text-align: center;
+}
+
+.rooms .room-row div:nth-child(3) p {
+    font-size: .1.5rem;
+    font-weight: 500;
+    color: var(--dark);
+    line-height: 1.6;
+}
+
+.rooms .room-row div:nth-child(3) .btn-room {
+    background-color: var(--button);
+    border: none;
+    padding: .75rem 1rem;
+    font-size: .7rem;
+    font-weight: 700;
+    color: var(--dark);
+    line-height: 1.6;
+}
+
+.rooms .room-row div:nth-child(3) .btn-room:hover {
+    background-color: var(--light);
+    border: 1px var(--primary-color) solid;
+    border-radius: .2rem;
+}
+
+.rooms .room-row div:nth-child(3) a {
+    text-decoration: none;
+    color: var(--dark);
+}
+/*Avalible room section styling ends*/
+
+/*NEXT AND PREVIOUS STYLING SECTION STARTS*/
+.round-control {
+    margin: 5.5rem 0 5.5rem 0;
+}
+
+.round-control .previous,
+.round-control .next {
+    height: 3rem;
+    border: .08rem var(--button) solid;
+    border-radius: 2.8rem;
+    text-align: center;
+    padding: .75rem;
+}
+
+.round-control .next {
+    padding: .75rem 1.2rem;
+}
+
+.round-control .round {
+    height: 3rem;
+    width: 3rem;
+    border: .08rem var(--button) solid;
+    border-radius: 50%;
+    text-align: center;
+    padding: .75rem;
+    margin: 0 .5rem;
+}
+
+.round-control .dotted {
+    height: .5rem;
+    width: .5rem;
+    border: .08rem var(--button) solid;
+    border-radius: 50%;
+    background-color: var(--button);
+    margin: 0 .4rem;
+}
+
+.round-control #effect:hover {
+    background-color: var(--button);
+    color: var(--dark);
+    font-weight: 500;
+}
+/*NEXT AND PREVIOUS STYLING SECTION ENDS*/
+
+/* COMPANY AREA STYLING SECTION STARTS*/
+.company {
+    background-color: var(--primary-color);
+    color: var(--light);
+    padding-bottom: 1rem;
+}
+
+.company h1 {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.company h3 {
+    line-height: 1.6;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-bottom: .5rem;
+}
+
+.company h5 {
+    line-height: 1.6;
+    font-weight: 400;
+    font-size: 1.3rem;
+    padding: 0;
+}
+
+.company .inline-form input {
+    padding: .5rem .6rem;
+}
+
+.company .btn-company {
+    padding: .7rem 1.4rem;
+    background-color: var(--button);
+    border: none;
+    color: var(--dark);
+    font-weight: 700;
+}
+
+.company .inline-form .btn-company:hover {
+    background-color: var(--light);
+    border: .1px var(--primary-color) solid;
+    border-radius: .2rem;
+}
+
+.company #reach-us p {
+    line-height: 1.7;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: .3rem;
+}
+
+.company a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.company #services p:hover {
+    text-decoration: underline;
+    color: var(--light);
+}
+
+.company #reach-us .social-media {
+    padding: 1rem 0;
+}
+
+.company #reach-us .social-media a {
+    padding-right: .5rem;
+}
+
+.company #reach-us ion-icon{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.company #company-elements {
+    text-align: left;
+} 
+/* COMPANY AREA STYLING SECTION ENDS*/
+
+
+/* FOOTER SECTION STYLING */
+.main-footer {
+    background-color: var(--footer);
+    padding: 1.5rem 0;
+    color: var(--light);
+    line-height: 1.5;
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+
+/* Media Querry */
+@media(max-width:1000px) {
+    .rooms .room-row {
+        display: flex;
+        flex-direction: column;
+        color: var(--light);
+        border: 1px var(--primary-color) solid;
+    }
+
+    .rooms .room-row .room-text { 
+        display: none;
+        padding: 0;
+    }
+
+    .rooms .room-row div:nth-child(3) {
+        padding: 1rem 0;
+    }
+    .company .inline-form input {
+        padding: .5rem .6rem;
+        margin-bottom: .5rem;
+    }
+    
+    .company .inline-form .btn-company {
+        padding: .7rem 1.4rem;
+        background-color: var(--button);
+        border: none;
+        color: var(--dark);
+        font-weight: 400;
+    }
+}
+
+@media(max-width: 991px) {
+    .main-header li #underline {
+        border: none;
+    }
+    
+    .main-header #navbar-btn {
+        background-color: var(--button);
+        padding: .4rem .8rem;
+        margin-top: 2rem;
+    }
+
+    .main-header li #underline,
+    .main-header li #stay:hover {
+        border-bottom: none;
+    }
+}
+
+@media(max-width:768px){
+    .round-control .round {
+    display: none;
+    }
+    .company #company-element div {
+        margin-bottom: 1rem;
+    }
+    .main-footer {
+        font-size: .8rem;
+    }
+    .company .inline-form input {
+        padding: .5rem;
+        margin-bottom: .5rem;
+    }
+    
+    .company .inline-form .btn-company {
+        padding: .6rem 1rem;
+        background-color: var(--button);
+        border: none;
+        color: var(--dark);
+        font-weight: 3o0;
+    }
+    
+}
+    
+@media(min-width:800px){
+    .book_online_btn{
+        margin-top: 0;
+    }
+    .active{
+        background-color: transparent;
+        color: #FFFFFF;
+        border-bottom: 5px solid  #DEBC64;;
+    }
+    .contact_telephone{
+        font-size: 64px;
+    }
+    .new_letter_btn{
+        padding: 7px 50px;
+    }
+    .footer_company{
+        margin-top: auto;
+    }
+}
