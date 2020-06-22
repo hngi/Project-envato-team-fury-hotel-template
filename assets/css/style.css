@@ -8,12 +8,6 @@ body {
 nav {
     background-color: #111a3a;
 }
-.navbar-toggler {
-    border: 1px solid #e4c141;
-}
-.navbar-toggler-icon {
-    border: 1px solid #e4c141;
-}
 .nav-link:hover {
     border-bottom: 2px solid #e4c141;
 }
