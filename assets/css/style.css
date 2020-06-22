@@ -8,8 +8,19 @@ body {
 nav {
     background-color: #111a3a;
 }
+.navbar-toggler {
+    border: 1px solid #e4c141;
+}
+.navbar-toggler-icon {
+    border: 1px solid #e4c141;
+}
 .nav-link:hover {
-    border-bottom: 3px solid #e4c141;
+    border-bottom: 2px solid #e4c141;
+}
+.active a {
+    text-decoration-line:  underline;
+    text-decoration-style: solid;
+    text-decoration-color: #e4c141;
 } 
 .btn {
     border-radius: 0px;
@@ -36,9 +47,16 @@ ul {
 
 
 /* Header section */
-.caption .btn {
-    pmargin: 10px;
+
+.navbar a {
+    color: #fff;
 }
+.caption .btn {
+    margin: 10px;
+}
+.nav-button2 {
+    display: none;
+        }
 .landing-content {
     background: url('../images/Component 3.png') no-repeat center center/cover;
     padding-top: 30px;
@@ -80,6 +98,7 @@ ul {
 .landing-form2 {
     display:none;
 }
+
 
 /* Rooms & Suites */
  .price-rate li {
@@ -234,8 +253,11 @@ footer li {
 /* Responsiveness */
 
 @media (max-width:756px) {
-    .nav-button {
+    .nav-button1 {
             display: none;
+        }
+    .nav-button2 {
+            display: block;
         }
 
     .landing-content .caption {
